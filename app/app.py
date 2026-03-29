@@ -268,7 +268,7 @@ def plot_feature_importance_radar(pca_features):
 # ============================================
 def main():
     # Title and Description
-    st.markdown('<h1 class="main-header">💳 Credit Card Fraud Detection System</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header"><img src="https://www.vanquis.com/wp-content/uploads/2025/05/Midnight_Credit_Card_FrontAndBack.webp" />💳 Credit Card Fraud Detection System</h1>', unsafe_allow_html=True)
     
     st.markdown("""
     <div class="info-box">
