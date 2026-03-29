@@ -268,13 +268,18 @@ def plot_feature_importance_radar(pca_features):
 # ============================================
 def main():
     # Title and Description
-    st.markdown('<h1 class="main-header"><img src="https://www.vanquis.com/wp-content/uploads/2025/05/Midnight_Credit_Card_FrontAndBack.webp" />💳 Credit Card Fraud Detection System</h1>', unsafe_allow_html=True)
+    Credit card - Free technology icons: google.com
+    st.markdown('<h1 class="main-header"><img style="height: 100px; "src="https://www.vanquis.com/wp-content/uploads/2025/05/Midnight_Credit_Card_FrontAndBack.webp" />💳 Credit Card Fraud Detection System</h1>', unsafe_allow_html=True)
     
     st.markdown("""
     <div class="info-box">
     This advanced machine learning system uses <strong>XGBoost algorithm</strong> to detect 
     potentially fraudulent credit card transactions in real-time. The model has been trained 
     on over 284,000 transactions with 0.17% fraud rate.
+    <br>
+    By
+    <br>
+    CYRUS EBERE ORJI
     </div>
     """, unsafe_allow_html=True)
     
@@ -287,7 +292,8 @@ def main():
     
     # Sidebar Navigation
     with st.sidebar:
-        st.image("https://img.icons8.com/color/96/000000/credit-card.png", width=80)
+        # Credit card - Free technology icons: google.com
+        st.image("https://cdn-icons-png.flaticon.com/512/330/330709.png", width=80)
         st.markdown("## Navigation")
         page = st.radio(
             "Select Page",
